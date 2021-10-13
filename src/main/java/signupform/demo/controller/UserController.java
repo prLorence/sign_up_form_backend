@@ -7,6 +7,7 @@ import signupform.demo.service.UserService;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin()
 public class UserController {
 
     @Autowired
